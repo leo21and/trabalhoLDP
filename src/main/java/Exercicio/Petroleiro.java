@@ -5,7 +5,7 @@ package Exercicio;
  *
  * @author Asus
  */
-public class Petroleiro extends Navio {
+public class Petroleiro extends Navio {     //classe filha de Navio
 
     private float capacidadeCarga;
 
@@ -16,7 +16,7 @@ public class Petroleiro extends Navio {
      * @param comprimento
      * @param capacidadeCarga
      */
-    public Petroleiro(String matricula, String nome, float comprimento, float capacidadeCarga) {
+    public Petroleiro(String matricula, String nome, float comprimento, float capacidadeCarga) {    //construtor
         super(matricula, nome, comprimento);
         this.capacidadeCarga = capacidadeCarga;
     }
@@ -25,7 +25,7 @@ public class Petroleiro extends Navio {
      *
      * @param capacidadeCarga
      */
-    public void setCapacidadeCarga(float capacidadeCarga) {
+    public void setCapacidadeCarga(float capacidadeCarga) { //setter para capacidade de carga
         this.capacidadeCarga = capacidadeCarga;
     }
 
@@ -33,7 +33,7 @@ public class Petroleiro extends Navio {
      *
      * @return
      */
-    public float getCapacidadeCarga() {
+    public float getCapacidadeCarga() { //getter para capacidade de carga
         return capacidadeCarga;
     }
 

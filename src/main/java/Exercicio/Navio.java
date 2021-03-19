@@ -28,7 +28,7 @@ public class Navio {
      * @param nome
      * @param comprimento
      */
-    public Navio(String matricula, String nome, float comprimento) {
+    public Navio(String matricula, String nome, float comprimento) {   // construtor
         this.matricula = matricula;
         this.comprimento = comprimento;
         this.nome = nome;
@@ -38,7 +38,7 @@ public class Navio {
      *
      * @return
      */
-    public String getMatricula() {
+    public String getMatricula() {  //getter para a matricula
         return matricula;
     }
 
@@ -46,7 +46,7 @@ public class Navio {
      *
      * @return
      */
-    public float getComprimento() {
+    public float getComprimento() { //getter para comprimento
         return comprimento;
     }
 
@@ -54,7 +54,7 @@ public class Navio {
      *
      * @param comprimento
      */
-    public void setComprimento(float comprimento) {
+    public void setComprimento(float comprimento) { //setter para comprimento
         this.comprimento = comprimento;
     }
 
@@ -62,7 +62,7 @@ public class Navio {
      *
      * @return
      */
-    public String getNome() {
+    public String getNome() {   //getter para o nome
         return nome;
     }
 
@@ -70,7 +70,7 @@ public class Navio {
      *
      * @param nome
      */
-    public void setNome(String nome) {
+    public void setNome(String nome) {  //setter para o nome
         this.nome = nome;
 
     }
