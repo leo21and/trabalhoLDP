@@ -1,8 +1,16 @@
 
 package Exercicio;
 
+/**
+ *
+ * @author Asus
+ */
 public class Main {
 
+    /**
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         Porto porto = new Porto(10);
         Petroleiro petroleiro = new Petroleiro("AA-55-ZT", "Navio1", 300, 10);

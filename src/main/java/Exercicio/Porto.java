@@ -1,18 +1,30 @@
 
 package Exercicio;
 
+/**
+ *
+ * @author Asus
+ */
 public class Porto {
 
     private int maxNavios; //construtor deve receber como parâmetro a capacidade do porto (número máximo de navios).
     private Navio[] navios; //array para guardar os navios de 0 até maxNavios
     private int numNavios;
 
+    /**
+     *
+     * @param maxNavios
+     */
     public Porto(int maxNavios) {
         this.maxNavios = maxNavios;
         this.navios = new Navio[maxNavios];
         this.numNavios = 0;
     }
 
+    /**
+     *
+     * @param navio
+     */
     public void adicionaNavio(Navio navio) {
         //procurar no array para ver se já existe algum com a mesma matricula
         boolean procura = false;
@@ -29,7 +41,10 @@ public class Porto {
 
     }
 
- 
+    /**
+     *
+     * @return
+     */
     public float capacidadeTotal() {
         float toneladas = 0;
 
