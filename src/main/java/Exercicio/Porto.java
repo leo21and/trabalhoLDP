@@ -22,8 +22,8 @@ public class Porto {
     }
 
     /**
-     *
-     * @param navio
+     * metodo para adicionar um navio ao Porto
+     * @param navio objeto representa um navio
      */
     public void adicionaNavio(Navio navio) {
         //procurar no array para ver se já existe algum com a mesma matricula

@@ -23,10 +23,10 @@ public class Navio {
     protected float comprimento;
 
     /**
-     *
-     * @param matricula
-     * @param nome
-     * @param comprimento
+     * Construtor da class Navio
+     * @param matricula matricula do Navio
+     * @param nome nome do Navio
+     * @param comprimento medida do Navio
      */
     public Navio(String matricula, String nome, float comprimento) {   // construtor
         this.matricula = matricula;
